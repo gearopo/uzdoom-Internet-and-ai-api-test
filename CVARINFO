@@ -1,0 +1,10 @@
+user bool netmod_enabled = true;
+user int netmod_max_players = 64;
+user int netmod_ai_enabled = true;
+user int netmod_ai_count = 1;
+user int netmod_wad_slots = 60;
+user bool netmod_auto_optimize = true;
+user string netmod_server = "127.0.0.1:10666";
+user string netmod_repository = "https://example.invalid/uznet";
+user string netmod_ai_endpoint = "http://127.0.0.1:8000/v1/chat/completions";
+user string netmod_ai_model = "local-model";

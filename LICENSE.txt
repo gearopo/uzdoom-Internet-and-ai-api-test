@@ -1,0 +1,1 @@
+Prototype project files authored for this conversation. Use/modify freely; UZDoom itself is GPLv3+.

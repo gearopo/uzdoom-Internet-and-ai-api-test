@@ -1,0 +1,19 @@
+OptionMenu "NetHub"
+{
+    Title "UZDoom NetHub"
+    Option "Networking", "netmod_enabled", "OnOff"
+    Option "Max players (engine cap)", "netmod_max_players", "Slider", 1, 64, 1
+    Option "AI avatars", "netmod_ai_enabled", "OnOff"
+    Option "AI avatar count", "netmod_ai_count", "Slider", 0, 64, 1
+    Option "WAD/PK3 stack slots", "netmod_wad_slots", "Slider", 1, 60, 1
+    Option "Automatic performance tuning", "netmod_auto_optimize", "OnOff"
+}
+OptionMenu "NetHub"
+{
+    Title "Server / AI endpoints"
+    Text "These values are configuration hooks for the companion engine/bridge."
+    TextField "Server", "netmod_server"
+    TextField "Mod repository", "netmod_repository"
+    TextField "AI endpoint", "netmod_ai_endpoint"
+    TextField "AI model", "netmod_ai_model"
+}

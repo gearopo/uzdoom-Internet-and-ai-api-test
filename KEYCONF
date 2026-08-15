@@ -1,0 +1,6 @@
+addkey "NetHub Menu" netmod_menu
+addkey "Spawn AI Avatar" netmod_spawn_ai
+alias netmod_menu "menu netmod"
+alias netmod_spawn_ai "netmod_spawn_ai"
+bind F10 netmod_menu
+bind F11 netmod_spawn_ai
